@@ -16,6 +16,8 @@
 	$ git add file_A
 3) Saving permanently, add to local repo (check ungit, can also commit there)
 	$ git commit -m "meaningful message" (why, how, affects, limitations)
+4) Check for updates 
+	$ git status
 
 
 
