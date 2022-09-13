@@ -1,0 +1,58 @@
+#########################
+### Definitions
+#########################
+- Commit: commit changes 
+- Github, back up of different timelines (Git is the time machine)
+- Develop area: folder where project is developed 
+- staging area: channel to help with preparation of the files 
+- Local repo: there is where the timeline is (managed by git)
+- Remote repo: Another computer
+
+#########################
+### Commands/actions
+#########################
+1) Start timeline: empty timeline/repository in new folder
+	$ git init (check in ungit)
+2) Add file to staging area from develop area
+	$ git add file_A
+3) Saving permanently, add to local repo (check ungit, can also commit there)
+	$ git commit -m "meaningful message" (why, how, affects, limitations)
+4) Check for updates 
+	$ git status
+
+
+#########################
+### Challenge
+#########################
+
+- How to move from one commit to another
+	$ git log 
+	$ git checkout <commit hash>
+	$ git checkout master (to go back to last commit)
+
+#########################
+### Local to remote
+#########################
+
+- Open github account 
+- Add new repo (doesn´t need to have the same name)
+
+### LOCALLY CREATE
+- README.txt: description of your project 
+- .gitignore: List of files that should not be added to github (templates available)
+
+### Commands
+
+- Create bridge between local and remote repo (github)
+	$ git remote add <name><URL>
+- Cross bridge
+	$ 
+
+
+
+$ git config --global --list
+	user.name=tinnethx
+	user.email=tinnet@irc.vib-ugent.be
+	credential.helper=cache
+
+
