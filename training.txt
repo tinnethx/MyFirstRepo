@@ -20,6 +20,25 @@
 	$ git status
 
 
+#########################
+### Challenge
+#########################
+
+- How to move from one commit to another
+	$ git log 
+	$ git checkout <commit hash>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
