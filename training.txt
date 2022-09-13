@@ -27,8 +27,7 @@
 - How to move from one commit to another
 	$ git log 
 	$ git checkout <commit hash>
-
-	$ git checkout master 
+	$ git checkout master (to go back to last commit)
 
 
 
