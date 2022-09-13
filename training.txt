@@ -1,0 +1,19 @@
+#########################
+### Definitions
+#########################
+- Commit: commit changes 
+- Github, back up of different timelines (Git is the time machine)
+- Develop area: folder where project is developed 
+- staging area: channel to help with preparation of the files 
+- Local repo: there is where the timeline is (managed by git)
+
+#########################
+### Commands/actions
+#########################
+1) Start timeline: empty timeline/repository in new folder
+	$ git init (check in ungit)
+2) Add file to staging area from develop area
+	$ git add file_A
+3) Saving permanently, add to local repo (check ungit --> master branch)
+	$ git commit -m "meaningful message" (why, how, affects, limitations)
+
