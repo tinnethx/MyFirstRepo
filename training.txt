@@ -6,6 +6,7 @@
 - Develop area: folder where project is developed 
 - staging area: channel to help with preparation of the files 
 - Local repo: there is where the timeline is (managed by git)
+- Remote repo: Another computer
 
 #########################
 ### Commands/actions
@@ -29,7 +30,15 @@
 	$ git checkout <commit hash>
 	$ git checkout master (to go back to last commit)
 
+#########################
+### Local to remote
+#########################
 
+- Open github account 
+- Add new repo (doesn´t need to have the same name)
+LOCALLY CREATE
+- README.txt: description of your project 
+- .gitignore: List of files that should not be added to github (templates available)
 
 
 
