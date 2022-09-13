@@ -37,16 +37,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 $ git config --global --list
 	user.name=tinnethx
 	user.email=tinnet@irc.vib-ugent.be
