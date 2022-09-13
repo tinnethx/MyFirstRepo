@@ -36,13 +36,17 @@
 
 - Open github account 
 - Add new repo (doesn´t need to have the same name)
-LOCALLY CREATE
+
+### LOCALLY CREATE
 - README.txt: description of your project 
 - .gitignore: List of files that should not be added to github (templates available)
 
+### Commands
 
-
-
+- Create bridge between local and remote repo (github)
+	$ git remote add <name><URL>
+- Cross bridge
+	$ 
 
 
 
