@@ -14,6 +14,19 @@
 	$ git init (check in ungit)
 2) Add file to staging area from develop area
 	$ git add file_A
-3) Saving permanently, add to local repo (check ungit --> master branch)
+3) Saving permanently, add to local repo (check ungit, can also commit there)
 	$ git commit -m "meaningful message" (why, how, affects, limitations)
+
+
+
+
+
+
+
+
+$ git config --global --list
+	user.name=tinnethx
+	user.email=tinnet@irc.vib-ugent.be
+	credential.helper=cache
+
 
