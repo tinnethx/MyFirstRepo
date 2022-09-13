@@ -56,3 +56,26 @@ $ git config --global --list
 	credential.helper=cache
 
 
+# Last part of GitHub is [Github on a remote computer]
+# So the two have to be linked together
+$ git remote add <bridge name AKA origin> <URL>
+# E.g. 
+$ git remote add origin git@github.com:JadeHawksworth15/how-to-github.git
+$ git branch -M main
+$ git push -u origin main
+
+# Deleting a local repository
+$ rm -rf GitHub/
+
+# Restoring a local repository from the remote
+$ git clone <ssh address>
+$ git clone git@https://github.com/JadeHawksworth15/how-to-github
+
+# Restoring both repositories after a 'freak accident'
+$ git revert --no-commit 4640e68a2ca28d67684016c5c813630fbb3de149
+#Where code is code from commit you want to reverse, in git log
+$ git status
+$ git revert --continue
+$ git push -u origin master
+
+
