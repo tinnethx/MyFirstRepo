@@ -28,6 +28,9 @@
 	$ git log 
 	$ git checkout <commit hash>
 
+	$ git checkout master 
+
+
 
 
 
